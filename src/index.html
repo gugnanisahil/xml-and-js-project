@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <title>Final Project</title>
+    <style>
+      table, th, td {
+        border: 1px solid black;
+      }
+      </style>
+  </head>
+  <body>
+    <form id="form" onsubmit="onSubmit(event)" onreset="onReset()">
+      <fieldset>
+      <legend>Credit Card Information</legend>
+      <input type="text" name="inputfield" id="inputfield-term" placeholder="Enter Value ... "/><br><br>
+      <button type="submit">Apply filters</button>
+      <button type="reset">Reset</button><br></fieldset>
+    </form>
+    <table >
+      <thead>
+        <tr>
+          <th>Id</th>
+          <th>Full Name</th>
+          <th>Email</th>
+          <th>Credit Card No</th>
+          <th>Credit Card Type</th>
+          <th>City</th>
+          <th>Country</th>
+        </tr>
+      </thead>
+      <tbody id="table-body"></tbody>
+    </table> 
+    <script type="text/javascript" src="./dist/bundle.js"></script>
+  </body>
+</html>
