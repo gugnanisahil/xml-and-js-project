@@ -18,5 +18,5 @@ VIEW
     2.Reset button can be used to reset
 
 DEPLOYMENT
-    URL for deployed project on netlify is 
+    URL for deployed project on netlify is https://fastidious-pudding-ebab84.netlify.app/
     
